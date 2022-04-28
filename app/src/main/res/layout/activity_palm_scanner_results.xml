@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/rl"
+    tools:context=".PalmScannerResultsActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Your Palm Says:"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/title"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:weightSum="10">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="504dp"
+            android:layout_marginBottom="100dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you have square hand, you are likely to have an organizational and practical approach towards life. You may help out many with your remarkable practicality.\nYour sign is linked with your roller coaster emotions.\nYou’re a true romantic. You enjoy almost everything about being in a partnership, and even when it’s bad you’ll do everything in your power to make improvements.\nKeep putting in the work for maximum rewards. You have a real feel for money now, and any investments you make should be geared toward the long-term."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </ScrollView>
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.veselin.destinysigns.AdMobFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_ad_mob" />
+    </LinearLayout>
+</RelativeLayout>

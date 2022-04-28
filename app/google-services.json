@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "901783611014",
+    "firebase_url": "https://destinysigns-5a277.firebaseio.com",
+    "project_id": "destinysigns-5a277",
+    "storage_bucket": "destinysigns-5a277.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901783611014:android:a41f3919087abc52741307",
+        "android_client_info": {
+          "package_name": "com.veselin.destinysigns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901783611014-isgct98i7rq8immbpfapcrujju07v5gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veselin.destinysigns",
+            "certificate_hash": "6b76b7eb5167a611e5b2e384b5231bdb8ffa6aa0"
+          }
+        },
+        {
+          "client_id": "901783611014-h71okuoptcpkdc78uf1mac5n2qmtqm08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3lHYMMJeTbQSkB6EP7oxrdVUSOseTTsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901783611014-h71okuoptcpkdc78uf1mac5n2qmtqm08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

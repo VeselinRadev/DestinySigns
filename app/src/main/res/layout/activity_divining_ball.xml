@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/storm"
+    tools:context=".DiviningBallActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ball_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            app:srcCompat="@drawable/ball"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/answer_txt"
+            android:textColor="@color/grey_600"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:layout_gravity="center"/>
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.veselin.destinysigns.AdMobFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+
+</LinearLayout>
